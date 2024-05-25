@@ -16,7 +16,6 @@ function Avatar({type, image,setImage}) {
   const [grabPhoto,setGrapPhoto] = useState(false)
   const [showPhotoLibrary,setShowPhotoLibrary] = useState(false)
   const [showCapturePhoto,setShowCapturePhoto] = useState(false)
-  
 
   const showContextMenu = (e)=>{
     e.preventDefault()
